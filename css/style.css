@@ -1,0 +1,171 @@
+/*Обнуление*/
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+*,
+*:before,
+*:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+:focus,
+:active {
+  outline: none;
+}
+a:focus,
+a:active {
+  outline: none;
+}
+nav,
+footer,
+header,
+aside {
+  display: block;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+input,
+button,
+textarea {
+  font-family: inherit;
+}
+input::-ms-clear {
+  display: none;
+}
+button {
+  cursor: pointer;
+}
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+a,
+a:visited {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+ul li {
+  list-style: none;
+}
+img {
+  vertical-align: top;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: 400;
+}
+/*--------------------*/
+
+body {
+  background-image: url(../img/bodybackground.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100%;
+  font-family: "Times New Roman", Times, serif;
+}
+h1 {
+  font-weight: 200;
+  color: azure;
+  text-align: center;
+  padding-top: 75px;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+}
+
+.firsttext {
+  font-size: 25px;
+  color: azure;
+  padding-top: 35px;
+  max-width: 800px;
+  margin: auto;
+}
+.borderimage {
+  max-width: 500px;
+  border: 5px solid white;
+  display: block;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+.twotext {
+  color: azure;
+  margin: auto;
+  font-size: 25px;
+  max-width: 500px;
+  padding-bottom: 75px;
+}
+.threetext {
+  color: azure;
+  margin: auto;
+  font-size: 25px;
+  max-width: 500px;
+}
+
+.list {
+  margin: 75px 0 0 500px;
+  color: azure;
+}
+
+.list li {
+  font-size: 20px;
+  margin-bottom: 15px;
+  background-image: url(../img/icons/li.svg);
+  background-repeat: no-repeat;
+  padding: 0 0 0 19px;
+  background-position: top 5px;
+}
+.one {
+}
+.two {
+  font-style: italic;
+  color: darkseagreen;
+}
+.three {
+  text-decoration: line-through;
+}
+.four {
+  font-weight: 600;
+}
+
+.btn {
+  margin: 150px 50px 10px 700px;
+  border-radius: 15px;
+  display: block;
+  width: 110px;
+  height: 35px;
+  background-color: #4b0082;
+  display: none;
+}
+
+.btn2 {
+  border: 1px solid black;
+  display: block;
+  width: 110px;
+  height: 35px;
+  background-color: #4b0082;
+  text-align: center;
+  border-radius: 20px;
+  margin: 150px 50px 10px 700px;
+  color: black;
+  padding: 2px;
+}
